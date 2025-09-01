@@ -66,12 +66,12 @@ Numeração das suites (01_, 02_, etc.) facilita execução
 ## 5. Boas Práticas Identificadas
 
 ```robot
-# 👏 Uso correto de headers para autenticação
+#  Uso correto de headers para autenticação
 ${headers}=    Create Dictionary    Content-Type=application/json    Accept=application/json    Cookie=token=${TOKEN}
 
-# 👏 Organização clara dos testes por funcionalidade
-# 👏 Uso adequado de Setup de Suite
-# 👏 Logs informativos durante a execução
+#  Organização clara dos testes por funcionalidade
+#  Uso adequado de Setup de Suite
+#  Logs informativos durante a execução
 ```
 
 ## 6. Conclusão Final
